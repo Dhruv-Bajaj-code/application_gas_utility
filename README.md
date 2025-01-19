@@ -42,32 +42,27 @@ This project is a request management system that allows users to create, delete,
 
 ## API Endpoints
 
-**User Endpoints**
+### User Endpoints
 
-   ```bash
-   POST /signup/: Create a new user.
-   POST /login/: User login, returns a JWT token.
-    bash```
+- **POST** `/signup/`: Create a new user.
+- **POST** `/login/`: User login, returns a JWT token.
 
-**Request Endpoints**
+### Request Endpoints
 
-   ```bash
-   POST /create_request/: Create a new request.
-   GET /get_requests/: Get all requests for the logged-in user.
-   DELETE /delete_request/: Delete a specific request.
+- **POST** `/create_request/`: Create a new request.
+- **GET** `/get_requests/`: Get all requests for the logged-in user.
+- **DELETE** `/delete_request/`: Delete a specific request.
 
-## Admin Endpoints
+### Admin Endpoints
 
-   ```bash
-   POST /admin/change_status/: Change the status of a request.
-   DELETE /admin/delete_request/: Delete any request by its ID.
-   GET /admin/get_requests/: Get all requests in the system.
+- **POST** `/admin/change_status/`: Change the status of a request.
+- **DELETE** `/admin/delete_request/`: Delete any request by its ID.
+- **GET** `/admin/get_requests/`: Get all requests in the system.
 
-## WebSocket Endpoints
+### WebSocket Endpoints
 
-   ```bash
-   ws/chat/: A WebSocket connection for real-time chat between users and support staff.
+- ws/chat/: A WebSocket connection for real-time chat between users and support staff.
 
 
-#Contributing
+## Contributing
 Feel free to fork the repository and submit pull requests. Ensure that your contributions follow the coding standards of the project.
