@@ -1,6 +1,7 @@
 # Django Project - Request Management System
 
-This project is a request management system that allows users to create, delete, and view requests. It supports two types of users: normal users and admin users. Admin users have additional privileges to manage requests and change their status.
+This project is a request management system that allows users to create, delete, and view requests. It supports two types of users: normal users and admin users. Admin users have additional privileges to manage requests and change their status. There is also a support system where customer support agents can communicate with normal users through a real-time chat feature.
+
 
 ## Features
 
