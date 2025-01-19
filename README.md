@@ -16,6 +16,28 @@ This project is a request management system that allows users to create, delete,
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-repository.git ```
+   git clone https://github.com/Dhruv-Bajaj-code/application_gas_utility.git
+
+2. Navigate to the project directory:
+  
+   ```bash
+   cd application_gas_utility
+
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Set up your environment variables in a .env file. Example:
+
+   ```bash
+   JWT_SECRET_KEY=your-secret-key
+   MONGODB_URI=your-mongodb-uri
+   JWT_EXPIRATION=your-jwt-expiration-time
+
+5. Run the development server:
+
+    ```bash
+   uvicorn application_gas_utility.asgi:application --reload
 
 
