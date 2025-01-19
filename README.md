@@ -29,7 +29,7 @@ This project is a request management system that allows users to create, delete,
    ```bash
    pip install -r requirements.txt
 
-4. Set up your environment variables in a .env file. Example:
+4. Set up your environment variables in a **.env** file. Example:
 
    ```bash
    JWT_SECRET_KEY=your-secret-key
