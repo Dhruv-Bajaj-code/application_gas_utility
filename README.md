@@ -55,7 +55,7 @@ Request Endpoints
    GET /get_requests/: Get all requests for the logged-in user.
    DELETE /delete_request/: Delete a specific request.
 
-Admin Endpoints
+# Admin Endpoints
 
    ```bash
    POST /admin/change_status/: Change the status of a request.
@@ -68,3 +68,5 @@ WebSocket Endpoints
    ws/chat/: A WebSocket connection for real-time chat between users and support staff.
 
 
+#Contributing
+Feel free to fork the repository and submit pull requests. Ensure that your contributions follow the coding standards of the project.
