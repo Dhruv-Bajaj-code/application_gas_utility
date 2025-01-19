@@ -11,7 +11,6 @@ load_dotenv(dotenv_path='../application_gas_utility/.env')
 
 SECRET_KEY = str(os.getenv('JWT_SECRET_KEY'))
 
-
 MONGO_URI = str(os.getenv('MONGODB_URI'))
 client = MongoClient(MONGO_URI)
 db = client['cluster']
